@@ -1,0 +1,32 @@
+body {
+  background-color: darkred;
+  -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+p{
+  font-weight: bold;
+  color: lime;
+}
+img {
+    float: left;
+    height: 150px;
+}
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+  }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
